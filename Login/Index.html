@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Layouts Responsivos</title>
+</head>
+<body>
+    <!-- TAG semântica principal -->
+    <main>
+        <!-- título principal -->
+        <h1>Faça seu login</h1>
+        <div class="sociais">
+            <a href="https://www.google.com.br/" target="_blank"><img src="assets/google.png" alt="Google"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="assets/facebook.png" alt="Facebook"></a>
+            <a href="https://br.linkedin.com/" target="_blank"><img src="assets/linkedin.png" alt="LinkedIn"></a>
+        </div>
+
+        <!-- Login alternativo -->
+         <div class="alternative">
+            <span>OU</span>
+         </div>
+
+         <!-- Formulário LOGIN -->
+          <form action="">
+            <label for="name">
+                <span>Nome:</span>
+                <input type="text" id="name" name="name">
+                <!-- Tag NAME usada no Banco de Dados -->
+            </label>
+            <label for="email">
+                <span>Email:</span>
+                <input type="email" id="email" name="email">
+            </label>
+            <label for="password">
+                <span>Senha:</span>
+                <input type="password" id="password" name="password">
+            </label>
+            <input type="submit" value="Login">
+          </form>
+    </main>
+    <section class="imagem">
+        <!-- Imagem lateral da página -->
+        <img src="assets/mobile.svg" alt="imagemdecorativa">
+        <div class="circle"></div>
+    </section>
+</body>
+</html>
