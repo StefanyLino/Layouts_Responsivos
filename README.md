@@ -8,4 +8,4 @@
 - **HTML** (HyperText Markup Language) é a estrutura da página. Ele define a disposição dos elementos, como títulos, parágrafos e links. 
 - **CSS** (Cascading Style Sheets) cuida da apresentação visual. Com o CSS, é possível estilizar o HTML, alterando cores, fontes e layouts, permitindo que os desenvolvedores criem designs atraentes e responsivos.
 #
-### Acompanhe o funcionamento do site acessando o vídeo de [resultado](https://github.com/StefanyLino/Projeto_Clone_Starbucks/blob/04febbdf9f6e2c8aa6e76b941600531b63e502c7/Resultado.mp4).
+### Acompanhe o funcionamento do site acessando o vídeo de [resultado](Login/Resultado.mp4).
