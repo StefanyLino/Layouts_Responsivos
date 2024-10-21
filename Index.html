@@ -7,29 +7,43 @@
     <title>Layouts Responsivos</title>
 </head>
 <body>
-    <section id="container">
-        <div class="account"></div>
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <div class="content"></div>
-        <h2>Create Account</h2>
-        <div class="form">
-            <div class="inputBox">
-                <i>Name</i>
-                <input type="text" required>
-                <i>E-mail</i>
-                <input type="text" required>
-                <i>Password</i>
-                <input type="password" required>
-            </div>
-        <div class="botao">
-            <input type="submit" value="Sign Up">
+    <!-- TAG semântica principal -->
+    <main>
+        <!-- título principal -->
+        <h1>Faça seu login</h1>
+        <div class="sociais">
+            <a href="https://www.google.com.br/" target="_blank"><img src="assets/google.png" alt="Google"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="assets/facebook.png" alt="Facebook"></a>
+            <a href="https://br.linkedin.com/" target="_blank"><img src="assets/linkedin.png" alt="LinkedIn"></a>
         </div>
-        <div class="imagens">
-            <img src="assets/mobile.svg" alt="">
-        </div>
-        </div>  
+
+        <!-- Login alternativo -->
+         <div class="alternative">
+            <span>OU</span>
+         </div>
+
+         <!-- Formulário LOGIN -->
+          <form action="">
+            <label for="name">
+                <span>Nome:</span>
+                <input type="text" id="name" name="name">
+                <!-- Tag NAME usada no Banco de Dados -->
+            </label>
+            <label for="email">
+                <span>Email:</span>
+                <input type="email" id="email" name="email">
+            </label>
+            <label for="password">
+                <span>Senha:</span>
+                <input type="password" id="password" name="password">
+            </label>
+            <input type="submit" value="Login">
+          </form>
+    </main>
+    <section class="imagem">
+        <!-- Imagem lateral da página -->
+        <img src="assets/mobile.svg" alt="imagemdecorativa">
+        <div class="circle"></div>
     </section>
 </body>
 </html>
