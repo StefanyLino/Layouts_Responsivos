@@ -9,7 +9,7 @@
 >Página do aquário, com imagens diversas em um grid.
 
 ### O que são as tecnologias usadas?
-> HTML, CSS e JavaScript são as três tecnologias fundamentais para o desenvolvimento web. 
+> HTML e CSS são as três tecnologias fundamentais para o desenvolvimento web. 
 - **HTML** (HyperText Markup Language) é a estrutura da página. Ele define a disposição dos elementos, como títulos, parágrafos e links. 
 - **CSS** (Cascading Style Sheets) cuida da apresentação visual. Com o CSS, é possível estilizar o HTML, alterando cores, fontes e layouts, permitindo que os desenvolvedores criem designs atraentes e responsivos.
 #
